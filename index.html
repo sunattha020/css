@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍲coupssup's website</title>
+
+<!-- 2.Internal cssตกแต่ง อยู่ระหว่างhead เขียนว่าstyle -->
+<!-- <style>
+
+body{background-color: 8ECDDD;
+}
+
+/*กำหนดไข่ปลา แทนเส้นhrที่เป็นขีดยาวๆธรรมดา*/
+hr{
+border-style: none;
+border-top-style: dotted;
+border-color: rgb(17, 95, 174);
+border-width: 5px;
+width: 100%;
+}
+
+</style> -->
+
+<!-- วิธีLink to external css แล้วคัดลอกpathของcssมาวาง / ลิ้งที่เฮดนะ  -->
+<link rel="stylesheet" type="text/css" href="css\styles.css">
+
+
+</head>
+
+
+<!-- 1.Inline cssตกแต่ง -->
+<!-- <body style="background-color: 8ECDDD;"> -->
+
+
+ิ<body>
+<!-- เปลี่ยนสีbackground ใช้ bgcolor="สี" จบ  ถ้าจะเอาสีอื่นๆก็ไปหาโค้ด โค้ดสีจะขึ้นต้อนด้วย# อยากจับคู่สี่ดูจากcolorhunt -->
+    
+
+<!--การพิมพ์หัวข้อ ใช้ h1tab ถ้า h2-h6 คือขนาดอักษรต่างๆ-->
+<!-- จัดให้เข้ากลาง ใช้ <center>เนื้อหา</center> -->
+<center><h1>My first Website</h1></center>
+<center><img src="image\welcome.png" alt="welcome" width="180" height="85"></center>
+<br>
+<center>Welcome to my first website</center>
+<center>🥗My name is Soup🥗</center>
+<!-- อิโมจิ = วินโดว จุด -->
+
+<br>
+<hr>
+
+<p>My name is Soup🥗 <br> Let's Start </p>
+<!-- br tab คือการขึ้นบรรทัดใหม่ มีแค่เปิด< ไม่ต้องปิด -->
+<!-- ctrl ฝ คือ การคอมเม้นไว้อ่านเขียวๆ -->
+
+<hr>
+<img src="image\Tree.png" alt="Tree" width="70" height="70">
+
+<h6><p>Sunattha Lalaeng</p></h6>
+<h5><p>Sunattha Lalaeng</p></h5>
+<h4><p>Sunattha Lalaeng</p></h4>
+<h3><p>Sunattha Lalaeng</p></h3>
+<h2><p>Sunattha Lalaeng</p></h2>
+
+
+<hr>
+<u><h1><p>My favorite song</p></h1></u>
+
+<!-- ลักษณะตัวอักษร ใช้ b tab ตัวหนา -->
+<b><p>Mo i kai? Madada yo</p></b>
+
+<!-- ขีดเส้นใต้ U tab -->
+<U><p>Mo i kai? Madada yo</p></U>
+
+<!-- ตัวเอียง I tab -->
+<I><p>Mo i kai? Madada yo</p></I>
+
+<p>Mo i kai? Madada yo</p>
+
+
+<br>
+<!-- ฝังวิดิโอ จากยูทูป แชร์embed(ฝัง) คัดลอกแล้วเอามาวางได้เลย -->
+ิ<iframe width="560" height="315" src="https://www.youtube.com/embed/azejAL_C_As?si=m5mQrgOUmYQ4YdCW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<!-- การทำเส้นคั้่น แค่เปิดไม่ต้องปิด ใช้hr tab -->
+<hr>
+
+<!-- สร้างlist แบบ unorderd list ใช้ ul -->
+<h3>subject registerd</h3>
+<ul>
+<li>webgis</li>
+<li>remote2</li>
+<li>philosophy</li>
+<li>research</li>
+<li>hydrology</li>
+<li>field3</li>
+</ul>
+
+<hr>
+<img class="Mushroom circular"src="image\Mushroom.png" alt="Mushroom"width="80" height="80">
+<img class="Flower circular" src="image\Flower.png" alt="Flower"width="80" height="80">
+<img class="Broccoli circular" src="https://pngimg.com/uploads/broccoli/broccoli_PNG72868.png" alt="Broccoli" width="80" height="80">
+<!-- ใส่รูปภาพ จากในเว็บไซต์ ไปสร้างโฟลเดอร์ในแฟ้มเดียวกัน new folder // ให้พิม img tab //ในฟันหนูคือชื่อรูปภาพ ให้คลิกขวาที่ไฟล์รูป copy relative path-->
+
+
+<!-- ทำ orderd list ใช้ li -->
+<br>
+<h3 id="heading">My favorite boys</h3>
+<li>pooh</li>
+<li>scoups</li>
+<li>jooheon</li>
+<li>minhyuk</li>
+<li>hyungwon</li>
+<li>shownu</li>
+<li>kihyun</li>
+<li>wonho</li>
+<li>im</li>
+
+
+<hr>
+<h3><b><p>Contact us</p></b></h3>
+
+<!-- การเชื่อมโยงในเว็บไซต์ -->
+<!-- linkเชื่อมโยง a tab ในตัวฟันหนูจะบอกว่าลิ้งไปที่ไหน // ระหว่างtagเปิดปิดให้ใส่คำลงไป//เมื่อผู้ใช้คลิกที่hobbi มันจะพาไปที่link -->
+<a href="hobbies.html">hobbies</a>
+<br><a href="contact.html">contact</a>
+
+
+<!-- เชื่อมโยงไปข้างนอก เว็บอื่น (ใส่brเพื่อขึ้นบรรทัดใหม่)-->
+<br><a href="https://swu.ac.th/">visit swu</a>
+
+<hr>
+
+</body>
+</html>
